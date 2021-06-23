@@ -1,0 +1,26 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "A basic application to query weather data using the openWeather api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nganifaith/weather_app.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "Faith Ngani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nganifaith/weather_app/issues"
+  },
+  "homepage": "https://github.com/nganifaith/weather_app#readme",
+  "devDependencies": {
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
