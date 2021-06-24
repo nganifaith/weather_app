@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   margin: 0;
@@ -8,8 +7,7 @@
 }
 
 body {
-  font-family: 'Muli'sans-serif;
-  background-image: url('../dist/images/bg.jpeg');
+  font-family: 'Montserrat', sans-serif;
   background-size: cover;
   background-position: top center;
 }
@@ -47,8 +45,7 @@ header input {
   padding: 10px 15px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px 0 16px 0;
-  border-bottom: 2px solid #DF8E00;
-
+  border-bottom: 2px solid #df8e00;
   color: #313131;
   font-size: 20px;
   font-weight: 300;
@@ -116,6 +113,6 @@ main {
   padding: 14px 40px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 15px;
+  margin: auto;
   font-weight: 900;
 }
