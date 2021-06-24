@@ -21,7 +21,7 @@ function displayResults(weather) {
 
   const temp = document.querySelector('.current .temp');
   temp.innerHTML = `${Math.round(
-    weather.main.temp
+    weather.main.temp,
   )}<span>°${getSymbol()}</span>`;
 
   const weatherEl = document.querySelector('.current .weather');
@@ -29,11 +29,11 @@ function displayResults(weather) {
 
   const hiLow = document.querySelector('.hi-low');
   hiLow.innerText = `${Math.round(
-    weather.main.temp_min
+    weather.main.temp_min,
   )}°${getSymbol()} / ${Math.round(weather.main.temp_max)}°${getSymbol()}`;
 
   document.body.style.backgroundImage = `url(${weatherImg(
-    weather.weather[0].main
+    weather.weather[0].main,
   )}
   )`;
 }

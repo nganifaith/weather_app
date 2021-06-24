@@ -6,7 +6,7 @@ const api = {
 export default async function getResults(query, unit = 'metric') {
   try {
     const weather = await fetch(
-      `${api.baseurl}weather?q=${query}&units=${unit}&APPID=${api.key}`
+      `${api.baseurl}weather?q=${query}&units=${unit}&APPID=${api.key}`,
     );
     const body = await weather.json();
     if (weather.status !== 200) {
