@@ -5,7 +5,7 @@
 ## App
 
 ![home](./assets/home.png)
-![todos](./assets/todo.png)
+![Dubia](./assets/dubia.png)
 
 ## About
 
@@ -54,7 +54,7 @@ Knowledge about JS:
 
 ## Live Site
 
-[Link](https://silly-colden-09da2e.netlify.app/#)
+[Link](https://zealous-jang-16fbd0.netlify.app/)
 
 ## Author
 
