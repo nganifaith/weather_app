@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" class="search-box" autocomplete="off" placeholder="Search for a city Here">
+    </header>
+    <div class="error hidden">City not found</div>
+    <main>
+      <section class="location">
+        <div class="city">Douala, CM</div>
+        <div class="date">Thursday 23rd June 2021</div>
+      </section>
+      <div class="current">
+        <div class="temp">27<span>°c</span></div>
+        <div class="weather">Sunny</div>
+        <div class="hi-low">13°c / 16°c</div>
+      </div>
+
+      <div class="btn-group mb-2 change" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="temp" id="celsius" autocomplete="off" value="metric" checked>
+        <label class="btn btn-outline-info" for="celsius">°C</label>
+
+        <input type="radio" class="btn-check" name="temp" id="fahrenheit" value="imperial" autocomplete="off">
+        <label class="btn btn-outline-warning" for="fahrenheit">°F</label>
+      </div>
+    </main>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
