@@ -55,11 +55,13 @@ function setQuery(event) {
   }
 }
 
-function changeUnit() {
-  units = units === 'metric' ? 'imperial' : 'metric';
+function changeUnit(value) {
+  units = value;
   search(currentCity);
 }
 
 searchBox.addEventListener('keypress', setQuery);
 
-button.addEventListener('click', () => changeUnit());
+button.querySelectorAll('input').forEach((input) => {
+  input.addEventListener('change', () => changeUnit(input.value));
+});
